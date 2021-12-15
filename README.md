@@ -1,1 +1,1 @@
-# JS
+# JavaScript 공부
