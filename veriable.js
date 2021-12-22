@@ -3,7 +3,7 @@
 // use this for Valina Javascript
 'use strict';
 
-// 2. Variable
+// 2. Variable, rw(read/write)
 // let (added in ES6)
 let globalName = 'global name';
 {
@@ -93,7 +93,7 @@ console.log(`value: ${symbol1.description}, type: ${typeof symbol1}`);
 // object, real-life object, data structure
 const chulsu = {name: 'chulsu', age: 20};
 chulsu.age = 21;
-console.log(`value: ${chulsu.age}`);
+console.log(chulsu.age);
 
 // 5. Dynamic typing: dynamically typed language
 let text = 'hello';
