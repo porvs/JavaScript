@@ -26,14 +26,20 @@ var age;
 }
 console.log(age);
 
-// 3.Constans
-// favor immutable data type always for a few reason: 값 할당후 다시는 변경 x
-// - security
-// - thread safety 
-// - reduce human mistakes 코드 변경, 다른개발자가 코드를 변경할때 실수를 줄여줌
+// 3.Constans, r(read only)
+// use const whenever possible.
+// only use let if variable needs to change.
 
 const daysInWeek = 7;
 const maxNumber = 5;
+
+//Note!
+//Immutable data types: primitive types, frozen objects (i.e. object.freeze()) @변경 불가
+//mutable data types: all objects by default are mutable in JS @변경 가능
+// favor immutable data type always for a few reason: @값 할당후 다시는 변경 x
+// - security
+// - thread safety 
+// - reduce human mistakes @코드 변경, 다른개발자가 코드를 변경할때 실수를 줄여줌
 
 // 4. Variable types
 // primitive, single item: number, string, boolean, null, underfiedn, symbol
